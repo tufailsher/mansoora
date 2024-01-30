@@ -13,7 +13,7 @@ export default AppHeader;
 
 const BgAppHeader = () => {
     return (
-        <div className='lg:w-3/4 py-8'>
+        <div className='lg:w-3/4 py-8  md:px-32 px-3'>
             <div className=" w-full text-lg text-white">
                 <h1 className=' text-3xl'>
                     <strong>Mansoora</strong> Homeopathic <br /> Clinic & Pharmacy

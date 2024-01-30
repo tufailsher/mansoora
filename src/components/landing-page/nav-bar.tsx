@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function NavBar() {
     return (
-        <div className="navbar md:px-8 !px-0 bg-white">
+        <div className="navbar md:px-8 px-0 bg-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

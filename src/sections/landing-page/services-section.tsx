@@ -16,7 +16,7 @@ export const ServicesSeciton = () => {
             <div className="pb-12">
                 <LargeSectionHeader title='Our Medical Services' />
             </div>
-            <div className="grid lg:grid-cols-3 lg:gap-20 md:grid-cols-2 grid-cols-1 md:gap-10 gap-16">
+            <div className="grid lg:grid-cols-3 lg:gap-20 md:grid-cols-2 grid-cols-1 md:gap-10 gap-16 md:mx-12 mx-3">
                 <ServiceCard title='On Clinic Monitoring' description={serviceCardText} />
                 <ServiceCard2 title={
                     <>Online <br /> Monitoring</>
