@@ -17,15 +17,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
-        custom:{
-          buttonColor: "#D34793", 
+      colors: {
+        custom: {
+          buttonColor: "#D34793",
           sectionTextColor: "#2D0E52",
           brandColor: "#FFE7BB",
           serviceTitleColor: "#94027C",
           serviceCard2Color: "#FBEDF4",
-        },   
+        },
       },
+      borderRadius: {
+        'aboutUsPix': '48px',
+
+
+      }
     },
   },
   plugins: [require("daisyui")],
